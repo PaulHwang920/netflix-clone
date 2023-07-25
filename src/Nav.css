@@ -1,0 +1,38 @@
+.nav {
+    position: fixed; /* The navigation bar stays in the same place even when the page is scrolled */
+    top: 0; /* The navigation bar is positioned at the very top of the page */
+    padding: 20px; /* Space is added around the content inside the navigation bar */
+    width: 100%; /* The navigation bar spans the full width of the viewport */
+    height: 30px; /* A fixed height is set for the navigation bar */
+    z-index: 1; /* The navigation bar is positioned above other elements that might overlap with it */
+
+    /* Animations */
+    transition-timing-function: ease-in; /* A gradual start is specified for the transition effect */
+    transition: all 0.5s; /* A transition effect is applied to all properties when they change, over a period of half a second */
+}
+
+.nav_contents {
+    display: flex; /* The content inside the navigation bar follows the flexible box layout model */
+    justify-content: space-between; /* The items inside the navigation bar are evenly distributed along the horizontal line, with equal space between them */
+}
+
+.nav_black {
+    background-color: #111; /* A black background color is set for the navigation bar */
+}
+
+.nav_logo {
+    position: fixed; /* The logo stays in the same place even when the page is scrolled */
+    top: 10px; /* The logo is positioned 10px from the top of the page */
+    left: 0; /* The logo is positioned at the very left of the page */
+    width: 80px; /* A fixed width is set for the logo */
+    object-fit: contain; /* The logo scales down if needed, but never scales up to be larger than its original size */
+    padding-left: 20px; /* Space is added to the left of the logo */
+    cursor: pointer; /* The cursor changes to a pointer when hovering over the logo */
+}
+
+.nav_avatar {
+    cursor: pointer; /* The cursor changes to a pointer when hovering over the avatar */
+    position: fixed; /* The avatar stays in the same place even when the page is scrolled */
+    right: 20px; /* The avatar is positioned 20px from the right edge of the page */
+    width: 30px; /* A fixed width is set for the avatar */
+}
