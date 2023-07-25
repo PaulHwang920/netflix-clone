@@ -1,58 +1,58 @@
 .banner {
-    position: relative;
-    height: 448px;
-    color: white;
-    object-fit: contain;
+    position: relative; /* The position of the banner is set relative to its normal position */
+    height: 448px; /* A fixed height is set for the banner */
+    color: white; /* The text color in the banner is set to white */
+    object-fit: contain; /* The banner scales down if needed, but never scales up to be larger than its original size */
 }
 
 .banner_contents {
-    margin-left: 30px;
-    padding-top: 140px;
-    height: 190px;
+    margin-left: 30px; /* Space is added to the left of the banner's content */
+    padding-top: 140px; /* Space is added above the banner's content */
+    height: 190px; /* A fixed height is set for the banner's content */
 }
 
 .banner_title {
-    font-size: 3rem;
-    font-weight: 800;
-    padding-bottom: 0.3rem;
+    font-size: 3rem; /* The font size of the banner title is set to 3 rem */
+    font-weight: 800; /* The font weight of the banner title is set to 800 (extra bold) */
+    padding-bottom: 0.3rem; /* Space is added below the banner title */
 }
 
 .banner_description {
-    width: 45rem;
-    line-height: 1.3;
-    padding-top: 1rem;
-    font-size: 0.8rem;
-    max-width: 360px;
-    height: 80px;
+    width: 45rem; /* A fixed width is set for the banner description */
+    line-height: 1.3; /* The distance between lines in the banner description is set to 1.3 */
+    padding-top: 1rem; /* Space is added above the banner description */
+    font-size: 0.8rem; /* The font size of the banner description is set to 0.8 rem */
+    max-width: 360px; /* The maximum width of the banner description is set to 360 pixels */
+    height: 80px; /* A fixed height is set for the banner description */
 }
 
 .banner--fadeBottom {
-    height: 7.4rem;
+    height: 7.4rem; /* A fixed height is set for the bottom part of the banner that fades */
     background-image: linear-gradient(
         180deg,
         transparent,
         rgba(37, 37, 37, 0.61),
         #111
-    );
+    ); /* A linear gradient is set as the background image, which goes from transparent at the top, through a semi-transparent gray, to black at the bottom */
 }
 
 .banner_button {
-    cursor: pointer;
-    color: #fff;
-    outline: none;
-    border: none;
-    font-weight: 700;
-    border-radius: 0.2vw;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-right: 1rem;
-    padding-top: 0.5rem;
-    background-color: rgba(51,51,51,0.5);
-    padding-bottom: 0.5rem;
+    cursor: pointer; /* The cursor changes to a pointer when hovering over the button */
+    color: #fff; /* The text color of the button is set to white */
+    outline: none; /* The default outline of the button is removed */
+    border: none; /* The default border of the button is removed */
+    font-weight: 700; /* The font weight of the button text is set to 700 (bold) */
+    border-radius: 0.2vw; /* The button has rounded corners, with a radius of 0.2 vw */
+    padding-left: 2rem; /* Space is added to the left of the button text */
+    padding-right: 2rem; /* Space is added to the right of the button text */
+    margin-right: 1rem; /* Space is added to the right of the button */
+    padding-top: 0.5rem; /* Space is added above the button text */
+    background-color: rgba(51,51,51,0.5); /* The background color of the button is set to a semi-transparent gray */
+    padding-bottom: 0.5rem; /* Space is added below the button text */
 }
 
 .banner_button:hover {
-    color: #000;
-    background-color: #e6e6e6;
-    transition: all 0.2s;
+    color: #000; /* When the button is hovered over, its text color changes to black */
+    background-color: #e6e6e6; /* When the button is hovered over, its background color changes to a light gray */
+    transition: all 0.2s; /* When the button is hovered over, the transition effect on all properties is applied over a period of 0.2 seconds */
 }
